@@ -1,0 +1,29 @@
+{
+  "name": "mattiachain",
+  "version": "1.0.0",
+  "description": "MattiaChain - Blockchain didattica in TypeScript con valuta MattiaCoin (MTC)",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev": "tsx src/index.ts",
+    "network": "tsx src/index-network.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "cli": "tsx src/cli.ts",
+    "server": "tsx src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.1.0",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.9"
+  }
+}
